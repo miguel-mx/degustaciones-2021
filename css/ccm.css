@@ -1,0 +1,367 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5F6B7A;
+}
+.h1, h1 {
+    ont-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.yellow {
+    color: #f1e36a;
+}
+.nav-item {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #615e62;
+}
+
+.hero-image {
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");*/
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 650px;
+
+}
+.hero-text {
+    /*margin-top: 40px;*/
+    /*margin-bottom: 40px;*/
+    display: inline-flex;
+}
+
+.hero-text h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color: #f1e36a;
+}
+
+.hero-text h4 {
+    color: white;
+}
+
+.presentacion h1, h3 {
+    color: #D24B2C;
+}
+
+.presentacion p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #5F6B7A;
+
+}
+
+.curso {
+    background: #a25056;
+    color: #F5F5F5;
+    font-size: 1.2rem;
+    font-weight: 300;
+    min-height: 100px;
+}
+
+.card-dm {
+    border: 2px solid hsl(54deg 83% 68% / 30%);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card-dm h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F1E36A;
+}
+
+.card-dm-body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F1E36A;
+}
+
+.card-org {
+    background: #FFFEEF;
+    border: 1px solid #890505;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.card-org h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #890505;
+}
+
+.card-contacto {
+    border: 0px solid #890505;
+    box-sizing: border-box;
+    border-radius: 0px;
+    padding: 40px;
+}
+
+.contacto {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F1E36A;
+}
+
+.card-contacto p {
+    font-size: 18px;
+    color: #F1E36A;
+}
+
+a {
+    color: #F1E36A;
+    text-decoration: underline;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .6rem 1rem;
+    text-decoration: none;
+    background-color: #FFFEEF;
+    border: 1px solid rgba(0,0,0,.125);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #890505;
+}
+
+#invitados {
+    background: #0F3E64;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:  #ffffff;
+}
+
+.invitados h1, h2 {
+    color: #f1e36a;
+    margin-top: 10px;
+}
+
+.invitados h3 {
+    color: #F5F5F5;
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.invitados p {
+    color:  #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.invitados  .ponente {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.invitados .titulo {
+    color: #f1e36a;
+    font-size: 1.4rem;
+}
+
+#pccm {
+    background: #0F3E64;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #F1E36A;
+}
+
+.pccm {
+    font-size: 36px;
+    line-height: 42px;
+    color: #F1E36A;
+}
+
+#estudiantes {
+    background: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:  #000000;
+}
+.estudiantes h1, h2 {
+    color: #0F3E64;
+    margin-top: 10px;
+}
+.estudiantes .nombre {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #d24b2c; /* #343a40; */
+}
+
+.estudiantes .lead {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.programa {
+    background-color: #D24B2C;
+    min-height: 340px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.programa h1 {
+    color: white;
+}
+
+.programa h4 {
+    color: white;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #D24B2C;
+    border-color: #D24B2C;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #0F3E64;
+    border-color: #0F3E64;
+}
+
+/*
+
+.ramen-shop {
+    background: url(../img/ramen-shop.png) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    !*    ï¿¼    background: url(../img/hero.png) no-repeat center;*!
+    !*ï¿¼    background-size: cover;*!
+    !*ï¿¼    height: 620px;*!
+    !*ï¿¼    background-position: center;*!
+
+}*/
+
+.scientific h3 {
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.scientific p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #454545;
+}
+
+#organizing {
+    background: #b83834;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.organizing h1 {
+    margin-top: 10px;
+    color: white;
+}
+
+.organizing h3 {
+    color: white;
+    margin-top: .75rem;
+    margin-bottom: 1px;
+}
+
+.organizing p {
+    color: lightblue;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.footer {
+    padding-top: 20px;
+    background-color: #343a40!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.logo-footer {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.logo-container {
+    display:inline-block!important;
+    justify-content:left!important;
+}
+
+.card-body p {
+    font-size: 1.1rem;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        margin-top: 56px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .presentacion p {
+        font-size: 1.1rem;
+    }
+
+    .logo-footer {
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .logo-container {
+        display:flex!important;
+        justify-content:center!important;
+    }
+}
+@media only screen and (max-width: 770px) {
+    #plato {
+        display: none;
+    }
+}
+
+.triangles {
+    clip-path: polygon(50% 0%, 0% 100%, 51% 100%);
+    border-color: red;
+}
