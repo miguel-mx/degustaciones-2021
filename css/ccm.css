@@ -37,6 +37,11 @@ body {
     min-height: 650px;
 
 }
+
+.logo {
+    height: 600px;
+}
+
 .hero-text {
     /*margin-top: 40px;*/
     /*margin-bottom: 40px;*/
@@ -332,36 +337,65 @@ a {
     padding: 2rem;
 }
 
+@media only screen and (max-width : 1024px) {
+
+    .hero-image {
+        min-height: 450px;
+    }
+
+    .logo {
+        height: 400px;
+    }
+
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
-    body {
-        margin-top: 56px;
+    .degustaciones {
+        width: 250px;
     }
 
     .hero-text h1 {
-        font-size: 36px;
+        font-size: 38px;
     }
+
+    .pccm {
+        padding: 1rem!important;
+        line-height: 3rem;
+        font-weight: 300;
+    }
+
     .presentacion p {
         font-size: 1.1rem;
     }
 
-    .logo-footer {
-        margin-left: 0px;
-        margin-top: 25px;
-    }
-
-    .logo-container {
-        display:flex!important;
-        justify-content:center!important;
+    [class*="col-"] {
+        margin-bottom: 15px;
     }
 }
-@media only screen and (max-width: 770px) {
-    #plato {
-        display: none;
-    }
-}
+@media only screen and (max-width: 768px) {
 
-.triangles {
-    clip-path: polygon(50% 0%, 0% 100%, 51% 100%);
-    border-color: red;
+    .degustaciones {
+        width: 380px;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .presentacion p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .pccm {
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 300;
+        color: #F1E36A;
+    }
+
+    [class*="col-"] {
+        margin-bottom: 15px;
+    }
 }
