@@ -63,7 +63,9 @@ body {
 }
 
 .presentacion h1, h3 {
-    color: #D24B2C;
+    font-size: 64px;
+    line-height: 75px;
+    color: #f1e36a;
 }
 
 .presentacion p {
@@ -74,6 +76,38 @@ body {
     color: #004780;
 
 }
+
+.textos h1 {
+
+    color: #D24B2C;
+}
+
+.textos .list-group-item {
+    position: relative;
+    display: block;
+    padding: .6rem 1rem;
+    text-decoration: none;
+    background: white;
+    border: 1px solid rgba(0,0,0,.125);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #403b3b;
+}
+
+.textos a {
+    color: #403b3b;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.textos .author {
+    display: inline-flex;
+}
+.textos .adscripcion {
+    color: #5F6B7A;
+}
+
 
 .curso {
     background: #a25056;
