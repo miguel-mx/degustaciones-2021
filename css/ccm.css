@@ -77,9 +77,9 @@ body {
 
 }
 
-.textos h1 {
-
+.texto-titulo {
     color: #D24B2C;
+    margin-bottom: 5px;
 }
 
 .textos .list-group-item {
@@ -88,26 +88,28 @@ body {
     padding: .6rem 1rem;
     text-decoration: none;
     background: white;
-    border: 1px solid rgba(0,0,0,.125);
+    border-width: 0 0 1px;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     color: #403b3b;
+    padding-bottom: 20px;
 }
 
 .textos a {
-    color: #403b3b;
+    color: #dc3545;
     text-decoration: underline;
     font-size: 24px;
 }
 
 .textos .author {
     display: inline-flex;
+    font-weight: 600;
 }
 .textos .adscripcion {
     color: #5F6B7A;
+    font-weight: 400;
 }
-
 
 .curso {
     background: #a25056;
